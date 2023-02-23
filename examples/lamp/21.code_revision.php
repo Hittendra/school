@@ -1,4 +1,4 @@
-<h3>Many field types</h3>
+<h3>Many field types example </h3>
 
 <form action="" method="post">
     <p><label for = "inp01">Account:</label>
@@ -60,3 +60,4 @@
 <pre>
     <?= print_r($_POST) ?>
 </pre>
+
