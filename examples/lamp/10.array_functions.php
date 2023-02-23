@@ -13,7 +13,7 @@ echo '<pre> <h3>The most common array functions are:</h3>
          echo '<hr>';
 
     $za = array();
-    $za['name'] = 'Chuck';
+    $za['name'] = 'Chuck Bill';
     $za['course'] = 'WA4E';
 
     if(array_key_exists('course', $za)) {
