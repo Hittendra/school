@@ -1,0 +1,13 @@
+.navbar ul {
+    list-style: none;
+   
+}
+.navbar ul li a{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    float: left;
+}

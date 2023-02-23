@@ -1,0 +1,26 @@
+name: my_php
+
+services:
+  node:
+    type: 'node:14'
+    build:
+      - yarn install
+    scanner: false
+    ssl: false
+    sslExpose: false
+  myservice:
+    type: php
+    composer_version: "1.10.1" 
+sqlmyproject:
+    type: phpmyadmin
+tooling:
+  node:
+    service: node
+  yarn:
+    service: node
+recipe: lamp
+config:
+  webroot: .
+proxy:
+  sqlmyproject:
+    - sqlmyproject.lando.site
