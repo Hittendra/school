@@ -22,7 +22,8 @@ echo '<table>
             <th> Email </th>
             <th> Father\'s Mobile </th>
             <th> Address </th>
-            <th> Action </th>
+            <th> Action1 </th>
+            <th> Action2 </th>
             </tr> </thead>';
             echo '<tbody>';
     foreach($result as $k => $v) {
@@ -35,6 +36,10 @@ echo '<table>
         echo "<td> <form method = \"post\" action =\"delete_student.php\">
         <input type=\"hidden\" name =\"del\" value=\"$del_id\">
         <input type = \"submit\" value=\"Delete\"></td></form>";
+        // echo '</tr>';
+        echo "<td> <form method = \"post\" action =\"edit_student.php\">
+        <input type=\"hidden\" name =\"edt\" value=\"$del_id\">
+        <a href='edit_student.php?id=".$del_id."'>Edit</a></td></form>";
         echo '</tr>';
         
     } echo '</tbody></table>';

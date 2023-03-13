@@ -18,7 +18,7 @@
 // Create connection
 try{ 
   $conn = new PDO('mysql:host=database;dbname=lamp', 'lamp', 'lamp');
-  echo 'connection established <br>';
+  //echo 'connection established <br>';
   $conn-> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
 
 }
