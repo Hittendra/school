@@ -1,0 +1,51 @@
+table th {
+    border: 2px solid black;
+    color: blue;
+}
+table td{
+    text-align: center;
+    border: 2px solid black;
+}
+table {
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+}
+#del {
+    text-decoration: none;
+    border:1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    color: red;
+    background-color: lightskyblue;
+}
+#edit {
+    text-decoration: none;
+    border: 1px solid black;
+    padding-left: 28px;
+    padding-right: 28px;
+    color: green;
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+#addNew {
+  
+   background-color:lightcyan;
+   display: block;
+   margin: auto;
+   width:auto;
+}
+h3{
+   margin:auto;
+   text-align: center;
+   padding: 20px;
+   font-weight:700;
+   font-size: 2rem;
+
+}
+
+   
+a:hover {
+   background-color:bisque;
+}
